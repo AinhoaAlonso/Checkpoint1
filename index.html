@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint 1</title>
+    <script src="https://kit.fontawesome.com/4ac7521f4b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <style>
+        .gridOne{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .gridTwo{
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr;
+        }
+        .gridThree{
+            display: grid;
+            grid-template-rows: 1fr 3fr;
+            width: 500px;
+            height: 300px;
+        }
+        .three img{
+            width: 500px;
+            height: 225px;
+            object-fit: cover;
+        }
+        .gridFour{
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            width: 500px;
+            background-color: green;
+        }
+        #four{
+            display: grid;
+           grid-template-columns: 1fr 1fr;
+        }
+        .gridFive{
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            width: 500px;
+            background-color: lightgrey;
+        }
+        #five{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+        }
+        #five img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .gridSix{
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            width: 500px;
+            background-color: lightgrey;
+        }
+        .gridSix p{
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="gridOne">
+        <p>Hello World</p>
+        <p style="color: blue;">My fantastic Content</p>
+    </div>
+    <div class="gridTwo">
+        <div class="two">
+            <p style="background-color: red;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="two">
+            <p style="background-color: blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="two">
+            <p style="background-color: yellow;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+    <div class="gridThree">
+        <div class="three">
+            <p style="background-color: lightgrey;">Winter is comming</p>
+        </div>
+        <div class="three"  style="background-color: green;">
+            <img src="images/winter.jpg" alt="Winter">
+        </div>
+    </div>
+    <div class="gridFour">
+        <div class="four">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div id="four">
+            <p>Lorem ipsum dolor sit.</p>
+            <p>Lorem ipsum dolor sit.</p>
+        </div>
+    </div>
+    <div class="gridFive">
+        <div class="five">
+            <p>My two images</p>
+        </div>
+        <div id="five">
+            <img src="images/Casa en un lago.jpg" alt="Casa en un lago">
+            <img src="images/Mujer paseando perros.jpg" alt="Mujer paseando perros"> 
+        </div>
+    </div>
+    <div class="gridSix">
+        <i class="fa-brands fa-reddit-alien"></i>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, similique.</p>
+    </div>
+</body>
+</html>
